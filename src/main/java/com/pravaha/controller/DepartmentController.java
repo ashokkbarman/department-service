@@ -22,7 +22,7 @@ public class DepartmentController {
     private static final Logger logger = LoggerFactory.getLogger(DepartmentController.class);
 
    
-    rivate final DepartmentRepository departmentRepository;
+    private final DepartmentRepository departmentRepository;
 
     public DepartmentController(DepartmentRepository departmentRepository) {
          this.departmentRepository = departmentRepository;
